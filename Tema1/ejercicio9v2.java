@@ -1,5 +1,5 @@
 /**
-* Ejercicio 9 - Mi obra de arte un.... "No lo se."
+* Ejercicio 9 - Mi obra de arte un.... "El Gnomito"
  */
 
 public class ejercicio9v2 {
