@@ -1,8 +1,8 @@
 /**
-* Ejercicio 9 - Mi obra de arte un.... "No lo se." by David Martin
+* Ejercicio 9 - Mi obra de arte un.... "¡GNOMO!" by David Martin
  */
 
-public class Gnomo {
+public class ejercicio9v4 {
   public static void main(String[] args) {
 
 	String verde = "\033[32m";
