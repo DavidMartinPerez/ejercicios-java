@@ -4,7 +4,7 @@
  */
 
 
-public class Ejercicio1 {
+public class Ejercicio01 {
   
    public static void main (String args[]) {
     System.out.print("Introduce un día de la semana: ");
@@ -20,7 +20,8 @@ public class Ejercicio1 {
       System.out.println("Tienes Base de Datos");
     } else if (dia.equals("viernes")){
       System.out.println("Tienes Lenguaje de Marcas");
-    } else System.out.println("Vuelva a introducirlo, por favor");
+    } else 
+      System.out.println("Vuelva a introducirlo, por favor");
     }
     
 }
