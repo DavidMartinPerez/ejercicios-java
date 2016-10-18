@@ -57,14 +57,3 @@ public class Ejercicio09 {
   }
 }
 
-
-=======
-
-public class Ejercicio09 {
-  
-  public static void main (String args[]) {
-    
-  }
-}
-
->>>>>>> 9832b3cf23d683f88a92c0e544853f62b2effe7e
