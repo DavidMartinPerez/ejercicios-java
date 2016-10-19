@@ -124,7 +124,7 @@ public class Ejercicio12 {
       System.out.println("\nHaz acertado " + puntos);
       System.out.println("\nMuy biiiiieeeeen.");
     } else if ((puntos >= 9) && (puntos <= 10)) {
-      System.out.println("\nSu puntuación es de: " + puntos);
+      System.out.println("\nHaz acertado ni mas ni menos que " + puntos);
       System.out.println("\nMaravilloso, así me gusta. No cambies");
 }
     }
