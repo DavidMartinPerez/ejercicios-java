@@ -103,11 +103,11 @@ public class Ejercicio12 {
     
     System.out.println(" ");
     System.out.println("****************************************************************** ");     
-    System.out.println("10. ");
-    System.out.println("a) \nb) \nc) "); 
+    System.out.println("10. ¿Qué es mas rapido un HDD o un SSD?");
+    System.out.println("a) HDD\nb) SSD\nc) Los dos son iguales"); 
     System.out.print("Su respuesta:  ");
     respuesta = System.console().readLine();  
-    if (respuesta.equals("c")) {
+    if (respuesta.equals("b")) {
       puntos++;
     }
     
