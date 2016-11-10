@@ -1,5 +1,5 @@
 /*
- * Ejercicio 15 Capitulo 5 
+ * Ejercicio 16 Capitulo 5 
  * @uthor David Martin Peréz
  */
 
@@ -13,13 +13,12 @@ public class Ejercicio15 {
     int numeroPotencia = Integer.parseInt(System.console().readLine());
 
     double potencia;
-    int exponente;
+    int = exponente;
         
-    for (int i = 1; i <= numeroPotencia; i++) {
+    for (i = exponente; i <= numeroPotencia; i++) {
         
       potencia = 1;
-      exponente = i;
-      
+
       for (int j = 0; j < exponente; j++) {
         potencia *= numeroBase;
       }
