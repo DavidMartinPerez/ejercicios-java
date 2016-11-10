@@ -6,21 +6,26 @@
 public class Ejercicio15 {
   
   public static void main (String args[]) {
-    System.out.println("Este programa le mostrara todas las potencias");
-    System.out.println("--------------------------------------");
-    System.out.print("Introduce un número(entero y positivo): ");
-    int numeroBase = Integer.parseInt(System.console().readLine());
+    System.out.print("Introduce el número base: ");
+    double numeroBase = Double.parseDouble(System.console().readLine());
     
-    System.out.print("Introduce la potencia(entero y positivo): ");
+    System.out.print("Introduce el exponente(entero): ");
     int numeroPotencia = Integer.parseInt(System.console().readLine());
-    
-    double 
-    double resultado = 1;
-    
-    for (int i = 0; i != numeroPotencia; i++) {
-      resultado = resultado * numeroBase;
+
+    double potencia;
+    int exponente;
+        
+    for (int i = 1; i <= numeroPotencia; i++) {
+        
+      potencia = 1;
+      exponente = i;
+      
+      for (int j = 0; j < exponente; j++) {
+        potencia *= numeroBase;
+      }
+      
+      System.out.println(numeroBase + "^" + i + " = " + potencia);
     }
-    System.out.println("El resultado de " + numeroBase + "^" + numeroPotencia + "=" + resultado);
   }
 }
 
