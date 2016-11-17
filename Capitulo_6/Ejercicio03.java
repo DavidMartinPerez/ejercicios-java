@@ -4,49 +4,48 @@
 * @uthor David Martín Pérez
  */
 
-public class Ejercicio02 {
+public class Ejercicio03 {
 
   public static void main(String[] args) {
     String palo ="";
     String carta ="";
-    
+    for (int i = 0; i < 10; i++){
     int tipoPalo = (int)(Math.random()*4);
     
     switch (tipoPalo) {
     case 0:
-      palo = "picas";
+      palo = "Oro";
         break;
       case 1:
-        palo = "corazones";
+        palo = "Basto";
         break;
       case 2:
-        palo = "diamantes";
+        palo = "Copa";
         break;
       case 3:
-        palo = "tréboles";
+        palo = "Espada";
         break;
     }
     
-    int numeroCarta = (int)(Math.random()*14);
+    int numeroCarta = (int)(Math.random()*13 + 1);
     
     switch (numeroCarta) {
-      case 1:
+      case 0:
         carta = "As";
         break;
       case 11:
-        carta = "J";
+        carta = "Sota";
         break;
       case 12:
-        carta = "Q";
+        carta = "Caballo";
         break;
       case 13:
-        carta = "K";
+        carta = "Rey";
         break;      
       default:
         carta = String.valueOf(numeroCarta);
     }
-    
-    
-    System.out.println("La carta que salio es el " +  carta + " de " + palo);
+    System.out.println("La carta que salio es el " + carta + " de " + palo);
+  }
   }
 }
