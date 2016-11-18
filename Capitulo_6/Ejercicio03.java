@@ -1,6 +1,7 @@
 /**
  * Ejercicio 2 del Capitulo 6
  * números aleatorios
+ * Una carta de la baraja española aleatoriamente
 * @uthor David Martín Pérez
  */
 
@@ -27,10 +28,10 @@ public class Ejercicio03 {
         break;
     }
     
-    int numeroCarta = (int)(Math.random()*13 + 1);
+    int numeroCarchoiceta = (int)(Math.random()*13 + 1);
     
     switch (numeroCarta) {
-      case 0:
+      case 1:
         carta = "As";
         break;
       case 11:
