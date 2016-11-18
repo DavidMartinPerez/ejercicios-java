@@ -1,6 +1,7 @@
 /**
  * Ejercicio 2 del Capitulo 6
  * números aleatorios
+ * Carta aleatoria de la baraja francesa
 * @uthor David Martín Pérez
  */
 
@@ -10,6 +11,7 @@ public class Ejercicio02 {
     String palo ="";
     String carta ="";
     
+  
     int tipoPalo = (int)(Math.random()*4);
     
     switch (tipoPalo) {
@@ -27,7 +29,7 @@ public class Ejercicio02 {
         break;
     }
     
-    int numeroCarta = (int)(Math.random()*14);
+    int numeroCarta = (int)(Math.random()*13 +1);
     
     switch (numeroCarta) {
       case 1:
@@ -48,5 +50,6 @@ public class Ejercicio02 {
     
     
     System.out.println("La carta que salio es el " +  carta + " de " + palo);
+    
   }
 }
