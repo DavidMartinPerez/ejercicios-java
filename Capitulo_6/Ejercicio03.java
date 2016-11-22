@@ -28,7 +28,7 @@ public class Ejercicio03 {
         break;
     }
     
-    int numeroCarchoiceta = (int)(Math.random()*13 + 1);
+    int numeroCarta = (int)(Math.random()*13 + 1);
     
     switch (numeroCarta) {
       case 1:
