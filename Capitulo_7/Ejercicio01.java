@@ -18,6 +18,6 @@ public class Ejercicio01 {
       System.out.println("num[" + i +"]: " + num[i]);
     }
     System.out.println();
-    System.out.println("Se inicializan en 0 por defecto");
+    System.out.println("Se inicializan en '0' por defecto");
   }
 }
