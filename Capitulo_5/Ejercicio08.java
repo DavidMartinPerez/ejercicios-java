@@ -13,7 +13,7 @@ public class Ejercicio08 {
     
     int i = 0;
     
-    while (i < 10) {
+    while (i < 11) {
     System.out.println(numero + " * " + i + " = " + numero * i);
     i++;
   } 
