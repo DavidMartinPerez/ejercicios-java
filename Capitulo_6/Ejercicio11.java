@@ -6,36 +6,43 @@
 
 public class Ejercicio11 {
   public static void main(String[] args) {
+    int suspensos = 0;
+    int suficientes = 0;
+    int bien = 0;
+    int notables = 0;
+    int sobres = 0;
     
-    for (int i=0; i < 10; i++){
-      
-      int tamano = (int)((Math.random() * 40) + 1);
-      
-      for(int j=0; j < tamano; j++){
-        int caracter = (int)((Math.random() * 5));
-        switch(caracter){
-          case 0:
-            System.out.print("*");
-            break;
-          case 1:
-            System.out.print("-");
-            break;
-          case 2:
-            System.out.print("=");
-            break;
-          case 3:
-            System.out.print(".");
-            break;
-          case 4:
-            System.out.print("|");
-            break;
-          case 5:
-            System.out.print("@");
-            break;
-          }
-        }
-      System.out.println();
+    
+    for(int i=0; i < 20; i++){
+      int nota = (int)((Math.random() * 5));
+      switch(nota){
+        case 0:
+          System.out.println("Suspenso");
+          suspensos++;
+          break;
+        case 1:
+          System.out.println("Suficiente");
+          suficientes++;
+          break;
+        case 2:
+          System.out.println("Bienes");
+          bien++;
+          break;
+        case 3:
+          System.out.println("Notable");
+          notables++;
+          break;
+        case 4:
+          System.out.println("Sobresaliente");
+          sobres++;
+          break;
+      }
     }
-    
+    System.out.println("-------------");
+    System.out.println("Hay " + suspensos + " suspensos");
+    System.out.println("Hay " + suficientes + " suficientes");
+    System.out.println("Hay " + bien + " bien");
+    System.out.println("Hay " + notables + " notables");
+    System.out.println("Hay " + sobres + " sobresalientes");
   }
 }
