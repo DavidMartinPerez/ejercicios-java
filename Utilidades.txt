@@ -1,0 +1,6 @@
+Retrasar tiempo:
+public static void main(String[] args)throws Exception { "se pone esto en el main
+
+y luego se usa: Thread.sleep(80);
+
+-------------------- 
