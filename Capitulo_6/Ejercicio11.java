@@ -1,10 +1,11 @@
- /* Ejercicio 10 del Capitulo 6
+/**
+ * Ejercicio 11 del Capitulo 6
  * números aleatorios
 * @uthor David Martín Pérez
  */
 
-public class Ejercicio10 {
-  public static void main(String[] args)throws Exception {
+public class Ejercicio11 {
+  public static void main(String[] args) {
     
     for (int i=0; i < 10; i++){
       
@@ -34,7 +35,6 @@ public class Ejercicio10 {
           }
         }
       System.out.println();
-      Thread.sleep(80);
     }
     
   }
