@@ -4,7 +4,7 @@
 * @uthor David Martín Pérez
  */
 
-public class Ejercicio17v2 {
+public class Matando_pez {
   public static void main(String[] args) {
     int ancho = 4;
     int alto = 4;

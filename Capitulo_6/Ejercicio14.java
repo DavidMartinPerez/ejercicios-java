@@ -1,5 +1,5 @@
 /**
- * Ejercicio 6 del Capitulo 6
+ * Ejercicio 14 del Capitulo 6
  * números aleatorios
  * Números aleatorios entre 100 y 199
 * @uthor David Martín Pérez
