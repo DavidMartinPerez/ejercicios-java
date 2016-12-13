@@ -1,6 +1,6 @@
 /**
  * Ejercicio 6 del Capitulo 7 Arrays
- * números aleatorios
+ *Basico Arrays
 * @uthor David Martín Pérez | int pedir = Integer.parseInt(System.console().readLine());
  */
 
@@ -19,19 +19,19 @@ public class Ejercicio06 {
       System.out.println("num[" + k + "]= " + num[k]);
     }
     System.out.println("------------Movimiento----------------------");
-    
-    System.out.println("Array original:");
-      for (int i = 0; i < 15; i++) {
-        System.out.printf("|%3d ", i);
+      //int aux = num[0];
+      //for (int i = 0; i <14; i++) {
+        //num[i] = num[i+1];
+      //} Este seria si lo queremos hacer hacia atras en vez de delante
+      //num[14] = aux;
+      int aux = num[14];
+      for (int i = 14; i > 0; i--) {
+        num[i] = num[i-1];
       }
-      System.out.println("|");
-      for (int i = 0; i < 75; i++) {
-        System.out.print("⎯");
-      }
-      System.out.println("⎯");
-      for (int i = 0; i < 15; i++) {
-        System.out.printf("|%3d ", num[i]);
-      }
-    System.out.println("|");
+      num[0] = aux;
+      for(int k=0; k <15;k++){
+      System.out.println("num[" + k + "]= " + num[k]);
+    }
+
   }
 }
