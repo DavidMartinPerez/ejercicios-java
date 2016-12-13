@@ -1,7 +1,7 @@
 /**
  * Ejercicio 9 del Capitulo 7 Arrays
  * Basico Arrays
-* @uthor David Martín Pérez
+* @uthor David Martín Pérez 
  */
 
 public class Ejercicio09 {
