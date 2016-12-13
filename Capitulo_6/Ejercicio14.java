@@ -5,7 +5,7 @@
 * @uthor David Martín Pérez
  */
 
-public class Ejercicio06 {
+public class Ejercicio14 {
 
   public static void main(String[] args) {
     boolean fallo = false;
