@@ -20,9 +20,18 @@ public class Ejercicio06 {
     }
     System.out.println("------------Movimiento----------------------");
     
-    for(int f=0; f < 15;f++){
-      int l = f+1;
-      num[l]=num[f];
-    }
+    System.out.println("Array original:");
+      for (int i = 0; i < 15; i++) {
+        System.out.printf("|%3d ", i);
+      }
+      System.out.println("|");
+      for (int i = 0; i < 75; i++) {
+        System.out.print("⎯");
+      }
+      System.out.println("⎯");
+      for (int i = 0; i < 15; i++) {
+        System.out.printf("|%3d ", num[i]);
+      }
+    System.out.println("|");
   }
 }
