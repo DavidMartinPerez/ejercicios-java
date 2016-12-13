@@ -1,5 +1,5 @@
 /**
- * Ejercicio 1 del Capitulo 7 Arrays
+ * Ejercicio 5 del Capitulo 7 Arrays
  * Basico Arrays
 * @uthor David Martín Pérez
  */
