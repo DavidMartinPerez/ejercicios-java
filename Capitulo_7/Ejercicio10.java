@@ -24,7 +24,7 @@ public class Ejercicio10 {
       }
     }
      System.out.println("----");
-    for(int i=0;i<20;i++){ //for para escribir 
+    for(int i=0;i<20;i++){ //asi escr
      
       
       for(int j=0; j < 20;j++){ //aqui escribe los pares al principio
@@ -34,7 +34,12 @@ public class Ejercicio10 {
       for(int k=pares; k<20;k++){ //aqui escribe los impares al final del array por que empieza desde los pares
         num[k] = impar[k - pares];
       }
-      System.out.println(num[i]);
+
   }
+        for(int d = 0; d<20; d++){
+        System.out.print(d+" | ");
+        System.out.print(num[d] + " | ");
+        System.out.println();
+      }
 }
 }
