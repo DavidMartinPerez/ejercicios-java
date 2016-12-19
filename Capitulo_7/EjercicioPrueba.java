@@ -27,7 +27,7 @@ public class EjercicioPrueba {
       }
     }
     for(int i=0; i < 20; i++){//te enseña el array
-      System.out.println(num[i]);
+      System.out.print(num[i] + " ");
     }
   }
 }

@@ -11,56 +11,24 @@ public class Arbol {
 
   public static void main(String[] args) {
     System.out.print("Introduce altura del arbol: ");
-    int altura = Integer.parseInt(System.console().readLine());
+    int altura =Integer.parseInt(System.console().readLine());
     int espacios= altura-2;
-    int linea = 1;
+    int linea = 0;
     int aleatorio = 0;
     String caracter = "";
+    String verde = "\033[32m";
+    String blanco = "\033[37m";
+    String rojo = "\033[31m";
+    String amarillo = "\033[29m";
     //pintamos la cima
-    while(espacios+2 > 0){ //pinta la primera estrella
+    while(espacios+1 > 0){ //pinta la primera estrella
       System.out.print(" ");
       espacios--;
     }
     espacios= altura-1;
-    System.out.println("*");
+    System.out.println(amarillo + "*" + blanco);
     
-    while(espacios+1 > 0){ //pinta la cima
-      System.out.print(" ");
-      espacios--;
-    }
-        aleatorio = ((int)(Math.random() * 9 + 1));
-          switch(aleatorio){
-            case 1: 
-              caracter = "^";
-              break;
-            case 2: 
-              caracter = "^";
-              break;
-            case 3: 
-              caracter = "^";
-              break;
-            case 4: 
-              caracter = "^";
-              break;
-            case 5: 
-              caracter = "^";
-              break;
-            case 6: 
-              caracter = "^";
-              break;
-            case 7: 
-              caracter = "o";
-              break;
-            case 8: 
-              caracter = "o";
-              break;
-            case 9: 
-              caracter = "*";
-              break;
-            }
-    System.out.println(caracter);
-    espacios = altura-1;
-    //empezamos a pintar la piramide
+    //empezamos a pintar el arbol
     for(int i = altura;i > 0; i--){ //pìnta el arbol
       
       for(int j=0; j<espacios; j++){
@@ -71,31 +39,31 @@ public class Arbol {
         aleatorio = ((int)(Math.random() * 9 + 1));
           switch(aleatorio){
             case 1: 
-              caracter = "^";
+              caracter = verde + "^" + blanco;
               break;
             case 2: 
-              caracter = "^";
+              caracter = verde + "^" + blanco;
               break;
             case 3: 
-              caracter = "^";
+              caracter = verde + "^" + blanco;
               break;
             case 4: 
-              caracter = "^";
+              caracter = verde + "^" + blanco;
               break;
             case 5: 
-              caracter = "^";
+              caracter = verde + "^" + blanco;
               break;
             case 6: 
-              caracter = "^";
+              caracter = verde + "^" + blanco;
               break;
             case 7: 
-              caracter = "o";
+              caracter = rojo + "o" + blanco;
               break;
             case 8: 
-              caracter = "o";
+              caracter = rojo + "o" + blanco;
               break;
             case 9: 
-              caracter = "*";
+              caracter = amarillo + "*" + blanco;
               break;
             }
         System.out.print(caracter);
