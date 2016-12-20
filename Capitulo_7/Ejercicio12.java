@@ -1,7 +1,8 @@
 /**
  * Ejercicio 12 del Capitulo 7 Arrays
  * Basico Arrays
-* @uthor David Martín Pérez 
+* @uthor David Martín Pérez
+* need fix 
  */
 
 public class Ejercicio12 {
