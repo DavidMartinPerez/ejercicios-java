@@ -32,7 +32,7 @@ public class Ejercicio01 {
   
       for(columna = 0; columna < 6; columna++) {
         System.out.printf("%9d   ", num[fila][columna]);
-      }   
+      }
     }
   }
 }
