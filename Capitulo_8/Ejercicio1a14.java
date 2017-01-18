@@ -44,10 +44,12 @@ public class Ejercicio1a14 {
     System.out.println("10^6 = " + mates.cuentas.potencia(10, 6));
     //digitos
     System.out.println("El número 0 tiene " + mates.cuentas.digitos(0) + " dígito/s.");
-    System.out.println("El número 7 tiene " + mates.cuentas.digitos(7) + " dígito/s.");
+    System.out.println("El número 789 tiene " + mates.cuentas.digitos(789) + " dígito/s.");
     //voltea
-    
+    System.out.println("Número 892347 al reves es " + mates.cuentas.voltea(892347));
     //digitoN
+    System.out.println("En la posición 0 del 3452 está el " + mates.cuentas.digitoN(3452, 0));
+    System.out.println("En la posición 6 del 857964034 está el " + mates.cuentas.digitoN(857964034, 6));
     
     
 }

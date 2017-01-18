@@ -59,7 +59,23 @@ public class cuentas {
     return contador;
    }
 
-  //
+  //digitoN
+    public static int digitoN(int x, int y) {
+    int contador = 0;
+    int digito = 0;
+    boolean salir = false;
+    int numero = voltea(x);
+      while ((numero > 0) && (!salir)) {
+        if (contador == y) {
+          digito = numero % 10;
+          salir = true;
+        } else {
+          numero /= 10;
+          contador++;
+        }
+      }
+      return digito;
+    }
 
   //########### OPERACIONES ##########
   /**
