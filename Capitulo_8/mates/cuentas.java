@@ -76,7 +76,30 @@ public class cuentas {
       }
       return digito;
     }
+    //posicionDeDigito:
+    public static int posicionDeDigito(int x, int d) {
+     int i;
 
+      for (i = 0; (i < digitos(x)) && (digitoN(x, i) != d); i++) {};
+
+        if (i == digitos(x)) {
+        return -1;
+        } else {
+         return i;
+        }
+    }
+    
+    //quitaPorDetras
+    public static long quitaPorDetras(long x, int n) {
+      return x / (long)potencia(10, n);
+    }
+    
+    //quitaPorDelante
+    public static long quitaPorDelante(long x, long n) {
+      x = voltea(quitaPorDetras(voltea(x), n));
+      x = quitaPorDetras(x, 1);
+      return x;
+    }
   //########### OPERACIONES ##########
   /**
   * Le da la vuelta a un numero

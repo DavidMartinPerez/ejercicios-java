@@ -50,6 +50,16 @@ public class Ejercicio1a14 {
     //digitoN
     System.out.println("En la posición 0 del 3452 está el " + mates.cuentas.digitoN(3452, 0));
     System.out.println("En la posición 6 del 857964034 está el " + mates.cuentas.digitoN(857964034, 6));
+    //posicionDeDigito:
+    System.out.println("En el 3452, el dígito 4 está en la posición " + mates.cuentas.posicionDeDigito(3452, 4));
+    System.out.println("En el 78604321, el dígito 1 está en la posición " + mates.cuentas.posicionDeDigito(78604321, 1));
+    //quitaPorDetras
+    System.out.println("Si al 78604321 se le quitan por detrás 4 dígitos, se queda como " + mates.cuentas.quitaPorDetras(78604321, 4));
+    System.out.println("Si al 1000 se le quita por detrás 1 dígito, se queda como " + mates.cuentas.quitaPorDetras(1000, 1));
+    //quitaPorDelante
+
+    System.out.println("Si al 78604321 se le quitan por delante 4 dígitos, se queda como " + mates.cuentas.quitaPorDelante(78604321, 4));
+    System.out.println("Si al 78604000 se le quitan por delante 2 dígitos, se queda como " + mates.cuentas.quitaPorDelante(78604000, 2));
     
     
 }
