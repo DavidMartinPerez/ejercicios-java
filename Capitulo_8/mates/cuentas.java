@@ -3,11 +3,7 @@ package mates;
 public class cuentas {
   
   /**
-  * Devuelve verdadero si el número que se pasa como parámetro es capicúa y
-    falso en caso contrario.
-  * <p>
-  * Un número capicúa es el que se lee igual de izquierda a derecha que de
-  * derecha a izquierda.
+  * Devuelve verdadero si es capicua y falso si no lo es
   * 
   * @param x número del que se quiere saber si es capicúa
   * @return  devuelve verdadero o falso, si es capicua o no.
@@ -49,7 +45,22 @@ public class cuentas {
 
     return n;
   }
-  
+  //Digitos
+    public static int digitos(long x) {
+    int contador = 0;
+    if (x == 0) {
+      contador = 1;
+    } else {
+      while (Math.abs(x) > 0) {
+      x /= 10;
+      contador++;
+      }
+    }
+    return contador;
+   }
+
+  //
+
   //########### OPERACIONES ##########
   /**
   * Le da la vuelta a un numero

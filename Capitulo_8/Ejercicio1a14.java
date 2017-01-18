@@ -43,7 +43,8 @@ public class Ejercicio1a14 {
     System.out.println("2^10 = " + mates.cuentas.potencia(2, 10));
     System.out.println("10^6 = " + mates.cuentas.potencia(10, 6));
     //digitos
-    
+    System.out.println("El número 0 tiene " + mates.cuentas.digitos(0) + " dígito/s.");
+    System.out.println("El número 7 tiene " + mates.cuentas.digitos(7) + " dígito/s.");
     //voltea
     
     //digitoN
